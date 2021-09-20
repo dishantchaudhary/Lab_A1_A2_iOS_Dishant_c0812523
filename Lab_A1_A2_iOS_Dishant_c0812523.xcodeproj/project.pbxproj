@@ -14,6 +14,11 @@
 		047D389326F8DEF100D8D528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D389226F8DEF100D8D528 /* Assets.xcassets */; };
 		047D389626F8DEF100D8D528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D389426F8DEF100D8D528 /* LaunchScreen.storyboard */; };
 		047D389E26F8DF2300D8D528 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D389D26F8DF2300D8D528 /* DashboardViewController.swift */; };
+		047D38A426F8DF8C00D8D528 /* ProductListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D389F26F8DF8C00D8D528 /* ProductListViewCell.swift */; };
+		047D38A526F8DF8C00D8D528 /* ProvidersProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38A026F8DF8C00D8D528 /* ProvidersProductListViewController.swift */; };
+		047D38A626F8DF8C00D8D528 /* ProvidersProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38A126F8DF8C00D8D528 /* ProvidersProductViewCell.swift */; };
+		047D38A726F8DF8C00D8D528 /* ProviderListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38A226F8DF8C00D8D528 /* ProviderListViewCell.swift */; };
+		047D38A826F8DF8C00D8D528 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38A326F8DF8C00D8D528 /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		047D389526F8DEF100D8D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047D389726F8DEF100D8D528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047D389D26F8DF2300D8D528 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		047D389F26F8DF8C00D8D528 /* ProductListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewCell.swift; sourceTree = "<group>"; };
+		047D38A026F8DF8C00D8D528 /* ProvidersProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvidersProductListViewController.swift; sourceTree = "<group>"; };
+		047D38A126F8DF8C00D8D528 /* ProvidersProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvidersProductViewCell.swift; sourceTree = "<group>"; };
+		047D38A226F8DF8C00D8D528 /* ProviderListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderListViewCell.swift; sourceTree = "<group>"; };
+		047D38A326F8DF8C00D8D528 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 			children = (
 				047D388626F8DEF000D8D528 /* AppDelegate.swift */,
 				047D388826F8DEF000D8D528 /* SceneDelegate.swift */,
+				047D389F26F8DF8C00D8D528 /* ProductListViewCell.swift */,
+				047D38A326F8DF8C00D8D528 /* ProductViewController.swift */,
+				047D38A226F8DF8C00D8D528 /* ProviderListViewCell.swift */,
+				047D38A026F8DF8C00D8D528 /* ProvidersProductListViewController.swift */,
+				047D38A126F8DF8C00D8D528 /* ProvidersProductViewCell.swift */,
 				047D389D26F8DF2300D8D528 /* DashboardViewController.swift */,
 				047D388C26F8DEF000D8D528 /* Main.storyboard */,
 				047D389226F8DEF100D8D528 /* Assets.xcassets */,
@@ -143,7 +158,12 @@
 				047D389126F8DEF000D8D528 /* Lab_A1_A2_iOS_Dishant_c0812523.xcdatamodeld in Sources */,
 				047D389E26F8DF2300D8D528 /* DashboardViewController.swift in Sources */,
 				047D388726F8DEF000D8D528 /* AppDelegate.swift in Sources */,
+				047D38A526F8DF8C00D8D528 /* ProvidersProductListViewController.swift in Sources */,
+				047D38A426F8DF8C00D8D528 /* ProductListViewCell.swift in Sources */,
+				047D38A626F8DF8C00D8D528 /* ProvidersProductViewCell.swift in Sources */,
+				047D38A826F8DF8C00D8D528 /* ProductViewController.swift in Sources */,
 				047D388926F8DEF000D8D528 /* SceneDelegate.swift in Sources */,
+				047D38A726F8DF8C00D8D528 /* ProviderListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
